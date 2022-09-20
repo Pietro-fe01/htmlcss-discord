@@ -228,12 +228,13 @@ main section:nth-child(even){
     background-color: #d3d3d3;
 }
 
-main .col-small .main-title{
+main section .main-title{
     font-size: 50px;
 }
 
-main .col-small .description{
+main section .description{
     font-size: 20px;
+    line-height: 30px;
 }
 
 main .col-small h2{
@@ -243,7 +244,16 @@ main .col-small h2{
 
 main .col-small p{
     padding-left: 55px;
-    line-height: 30px;
+}
+
+main section:last-child .row{
+    display: flex;
+    flex-direction: column;  
+    text-align: center;
+}
+
+main section:last-child .row h2{
+    margin-bottom: 35px;
 }
 
  /*--------------
