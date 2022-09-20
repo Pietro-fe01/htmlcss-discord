@@ -7,26 +7,10 @@
     padding: 0;
 }
 
-/*--------------
-    COMMON
- --------------*/
-.container {
-    max-width: 1200px;
-    margin: auto;
-}
-
-.row{
-    display: flex;
-}
-
-/*--------------
-    BUTTONS
- --------------*/
-
  /*--------------
     DEBUG
  --------------*/
-.debug header{
+ .debug header{
     background-color: #add8e6;
 }
 
@@ -100,47 +84,81 @@
 }
 
 /*--------------
+    COMMON
+ --------------*/
+.container {
+    max-width: 1200px;
+    margin: auto;
+}
+
+.row{
+    display: flex;
+}
+
+/*--------------
+    TYPOGRAPHY
+ --------------*/
+header{
+    color: white;
+    font-size: 18px;
+}
+
+header .main-nav ul li a{
+    text-decoration: none;
+    margin: 0 30px;
+    color: white;
+}
+
+/*--------------
+    BUTTONS
+ --------------*/
+.button{
+    border-radius: 30px;
+    padding: 0.5rem 1rem;
+}
+
+header .login .button{
+    color: black;
+    background-color: white;
+}
+
+/*--------------
     HEAD
  --------------*/
 header{
-    padding-top: 15px;
+    padding-top: 20px;
+    background-color: #255ee9;
 }
 
 header .header-top{
     display: flex;
-    margin-bottom: 15px;
+    padding-bottom: 5px;
 }
-
+  
+header .logo{
+    padding-left:10px;
+    width: 20%;
+}
+  
 header .main-nav ul{
     list-style: none;
     display: flex;
     justify-content: center;
 }
 
-header .main-nav ul li a{
-    text-decoration: none;
-    margin: 0 30px;
-    color: black;
-}
-  
-  header .logo{
-    padding-left:10px;
-    width: 20%;
-  }
-  
-  header .main-nav{
+header .main-nav{
     width: 60%;
     justify-content: center;
   }
   
-  header .login{
+header .login{
     padding-right:10px;
     width: 20%;
     text-align: right;
   }
 
 header .header-bottom{
-    padding: 50px;
+    /* padding: 50px; */
 }
 
  /*--------------
