@@ -118,12 +118,25 @@ header .main-nav ul li a{
  --------------*/
 .button{
     border-radius: 30px;
-    padding: 0.5rem 1rem;
+    padding: 10px 20px;
 }
 
 header .login .button{
     color: black;
     background-color: white;
+}
+
+header .header-bottom .header-bottom-buttons .button{
+    color: black;
+    background-color: white;
+    font-size: 16px;
+    text-decoration: none;
+    margin: 15px 15px 0 15px;
+}
+
+header .header-bottom .header-bottom-buttons #black-button{
+    background-color: #23272a;
+    color: white;
 }
 
 /*--------------
@@ -149,6 +162,11 @@ header .main-nav ul{
     list-style: none;
     display: flex;
     justify-content: center;
+}
+
+header .main-nav ul li:hover{
+    text-decoration: underline;
+    text-decoration-color: white;
 }
 
 header .main-nav{
@@ -178,7 +196,7 @@ header .header-bottom .cont-bot{
     justify-content: center;
 }
 
-header .header-bottom .cont-bot > *{
+header .header-bottom .cont-bot > h1, p{
     text-align: center;
 }
 
@@ -189,7 +207,13 @@ header .header-bottom .cont-bot h1{
 header .header-bottom .cont-bot p{
     line-height: 35px;
     line-height: 35px;
-    margin-top: 30px;
+    margin-top: 25px;
+}
+
+header .header-bottom .header-bottom-buttons{   
+    display: flex;
+    justify-content: center;
+    margin: 10px 10px 0 10px;
 }
 
  /*--------------
