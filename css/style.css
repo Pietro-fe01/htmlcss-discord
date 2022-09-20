@@ -119,6 +119,7 @@ header .main-nav ul li a{
 .button{
     border-radius: 30px;
     padding: 10px 20px;
+    text-decoration: none;
 }
 
 header .login .button{
@@ -130,12 +131,16 @@ header .header-bottom .header-bottom-buttons .button{
     color: black;
     background-color: white;
     font-size: 16px;
-    text-decoration: none;
     margin: 15px 15px 0 15px;
 }
 
 header .header-bottom .header-bottom-buttons #black-button{
     background-color: #23272a;
+    color: white;
+}
+
+main section:last-child .button{
+    background-color: #7289da;
     color: white;
 }
 
@@ -254,6 +259,17 @@ main section:last-child .row{
 
 main section:last-child .row h2{
     margin-bottom: 35px;
+}
+
+main section:last-child .row h4{
+    font-size: 25px;
+    width: 40%;
+    padding: 20px 10px;
+    margin: auto;
+    background-image: url(../img/stars.svg);
+    background-size: contain;
+    background-position: center bottom;
+    margin-bottom: 30px;
 }
 
  /*--------------
