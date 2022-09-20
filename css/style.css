@@ -98,7 +98,11 @@
 /*--------------
     TYPOGRAPHY
  --------------*/
-header{
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+ header{
     color: white;
     font-size: 18px;
 }
@@ -132,6 +136,7 @@ header{
 
 header .header-top{
     display: flex;
+    align-items: center;
     padding-bottom: 5px;
 }
   
@@ -158,7 +163,33 @@ header .login{
   }
 
 header .header-bottom{
-    /* padding: 50px; */
+    height: 520px;
+    background-image: url(../img/jumbo.png);
+    background-size: cover;
+    background-position: bottom;
+}
+
+header .header-bottom .cont-bot{
+    max-width: 900px;
+    height: 30rem;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+header .header-bottom .cont-bot > *{
+    text-align: center;
+}
+
+header .header-bottom .cont-bot h1{
+    font-size: 3.5rem;
+}
+
+header .header-bottom .cont-bot p{
+    line-height: 35px;
+    line-height: 35px;
+    margin-top: 30px;
 }
 
  /*--------------
