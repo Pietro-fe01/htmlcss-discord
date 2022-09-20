@@ -226,7 +226,7 @@ header .header-bottom .header-bottom-buttons{
  --------------*/
  main .row{
     display: flex;
-    padding: 50px 0;
+    padding: 110px 0px;
 }
 
 main section:nth-child(even){
@@ -261,7 +261,7 @@ main section:last-child .row h2{
     margin-bottom: 35px;
 }
 
-main section:last-child .row h4{
+main section:last-child .final-caption h4{
     font-size: 25px;
     width: 40%;
     padding: 20px 10px;
@@ -285,11 +285,11 @@ footer .footer-top{
 }
 
 footer .foot-col-top{
-    flex-grow: 1;
+    width: calc(100%/4);
 }
 
 footer #foot-col-double{
-    flex-grow: 2;
+    width: 390px;
 }
 
 footer .footer-divisor{
@@ -298,7 +298,7 @@ footer .footer-divisor{
 }
 
 footer .footer-bottom{
-    padding-top: 30px;
+    padding: 20px 0 80px 0;
 }
 
 footer .foot-col-bottom{
@@ -307,10 +307,51 @@ footer .foot-col-bottom{
     align-items: center;
 }
 
-footer .foot-col-bottom > *{
-    background-color: #ffb6c1;
-    padding: 5px 15px;
-    border: 2px dashed black;
+footer .footer-top h4{
+    color: #7289da;
+    font-size: 35px;
+    margin-top: 30px;
+
 }
 
+footer .footer-top h5{
+    color: #7289da;
+    font-size: 20px;
+    margin-top: 30px;
+}
+
+footer .footer-top ul li{
+    list-style: none;
+    color: white;
+    margin: 15px 0;font-size: 15px;
+}
+
+footer .footer-top img{
+    width: 20px;
+    height: 15px;
+}
+
+footer .footer-top a{
+    text-decoration: none;
+    color: white;
+}
+
+footer .footer-top a:hover{
+    text-decoration: underline;
+    color: white;
+}
+
+footer .footer-top #language{
+    text-decoration: none;
+}
+
+footer .footer-top #our-pages{
+    letter-spacing: 8px;
+    font-size: 20px;
+}
+
+footer .footer-button #registrati{
+    background-color: #7289da;
+    color: white;
+}
 
