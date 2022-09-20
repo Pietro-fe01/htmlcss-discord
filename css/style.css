@@ -232,7 +232,7 @@ header .header-bottom .header-bottom-buttons{
 }
 
 main section:nth-child(even){
-    background-color: #d3d3d3;
+    background-color: #f5f5f5;
 }
 
 main section .main-title{
@@ -272,6 +272,21 @@ main section:last-child .final-caption h4{
     background-size: contain;
     background-position: center bottom;
     margin-bottom: 30px;
+}
+
+main section:nth-child(odd)::after{
+    height: 150px;
+    content:"";
+    background-image: url(../img/wave.svg);
+    display: block;
+}
+
+main section:nth-child(1n+2)::before{
+    height: 150px;
+    content:"";
+    background-image: url(../img/wave.svg);
+    display: block;
+    transform: rotate(180deg);
 }
 
  /*--------------
