@@ -1,0 +1,199 @@
+/*--------------
+    RESET
+ --------------*/
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/*--------------
+    COMMON
+ --------------*/
+.container {
+    max-width: 1200px;
+    margin: auto;
+}
+
+.row{
+    display: flex;
+}
+
+/*--------------
+    BUTTONS
+ --------------*/
+
+ /*--------------
+    DEBUG
+ --------------*/
+.debug header{
+    background-color: #add8e6;
+}
+
+.debug header .header-top{
+    background-color: #daa520;
+}
+
+.debug header .header-top > * {
+    padding: 10px;
+    border: 2px dashed black;
+  }
+
+.debug header .header-bottom{
+    background-color: #00008b;
+}
+
+.debug header .cont-bot{
+    background-color: #ee82ee;
+    max-width: 900px;
+    height: 30rem;
+    margin: auto;
+    border: 2px dashed black;
+}
+
+.debug main .col{
+    height: 500px;
+}
+
+.debug main .col-big{
+    background-color: #1e90ff; 
+    width: 70%;
+    border: 2px dashed black;
+}
+
+.debug main .col-small{
+    background-color: #ffc0cb;
+    width: 30%;
+    border: 2px dashed black;
+}
+
+.debug main .last-section{
+    height: 900px;
+    background-color: #228b22;
+}
+
+.debug main #last-section-small{
+    width: 30%;
+    border: 2px dashed black;
+}
+
+.debug main #last-section-big{
+    width: 70%;
+    border: 2px dashed black;
+}
+
+.debug footer .foot-col-top{
+    height: 550px;
+    background-color: #20b2aa;
+    border: 2px dashed white;
+}
+
+.debug footer #foot-col-double{
+    background-color: #f08080;
+    border-color: black;
+}
+
+.debug footer .foot-col-bottom{
+    height: 80px;
+    width: 100%;
+    background-color: #7fffd4;
+}
+
+/*--------------
+    HEAD
+ --------------*/
+header{
+    padding-top: 15px;
+}
+
+header .header-top{
+    display: flex;
+    margin-bottom: 15px;
+}
+
+header .main-nav ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+header .main-nav ul li a{
+    text-decoration: none;
+    margin: 0 30px;
+    color: black;
+}
+  
+  header .logo{
+    padding-left:10px;
+    width: 20%;
+  }
+  
+  header .main-nav{
+    width: 60%;
+    justify-content: center;
+  }
+  
+  header .login{
+    padding-right:10px;
+    width: 20%;
+    text-align: right;
+  }
+
+header .header-bottom{
+    padding: 50px;
+}
+
+ /*--------------
+    MAIN
+ --------------*/
+ main .row{
+    display: flex;
+    padding: 50px 0;
+}
+
+main section:nth-child(even){
+    background-color: #d3d3d3;
+}
+
+ /*--------------
+    FOOTER
+ --------------*/
+ footer{
+    background-color: #23272a;
+ }
+
+footer .footer-top{
+    display: flex;
+    padding: 10px 0 40px 0;
+}
+
+footer .foot-col-top{
+    flex-grow: 1;
+}
+
+footer #foot-col-double{
+    flex-grow: 2;
+}
+
+footer .footer-divisor{
+    border: 0.5px solid #9a9a9a;
+    background-color: white;
+}
+
+footer .footer-bottom{
+    padding-top: 30px;
+}
+
+footer .foot-col-bottom{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer .foot-col-bottom > *{
+    background-color: #ffb6c1;
+    padding: 5px 15px;
+    border: 2px dashed black;
+}
+
+
